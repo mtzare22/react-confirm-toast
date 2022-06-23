@@ -1,0 +1,22 @@
+.toastContainer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 0.5rem;
+    width: 300px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    
+    color: #fff;
+    z-index: 999;
+}
+.toast {
+    padding: 0.2rem;
+}
+
+.success {
+    background-color: rgba(36, 154, 36, 0.807);
+}
+.error {
+    background-color: rgba(154, 46, 36, 0.807);
+}
